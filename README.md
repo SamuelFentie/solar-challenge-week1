@@ -1,40 +1,54 @@
-<<<<<<< HEAD
-# Solar Challenge Week 1 – Exploratory Data Analysis on Solar Radiation in Africa
+# 🌞 AI Mastery Program – Solar Challenge Week 1 Report  
+**Author**: Samuel Fentie Meskir  
+**Submission Date**: 21-May-2025
 
-This repository contains the code, notebooks, and resources used to perform an exploratory data analysis (EDA) on solar radiation measurements in Africa, focusing on data sourced from [EnergyData.info](https://energydata.info/dataset/?q=Solar+Radiation+Measurement&vocab_regions=AFR).
+## 📝 Summary
 
-## Project Objective
+This report covers the tasks accomplished during Week 1 of the Solar Data Analytics Challenge. The objective was to build a reproducible analysis pipeline and explore solar datasets from Benin, Sierra Leone, and Togo through EDA and visualization.
 
-The primary goal is to clean, profile, and explore solar radiation datasets to identify trends, visualize patterns, and extract actionable insights that could support solar energy planning and development in Africa.
+### 🔧 Task Highlights
+
+#### ✅ Task 1 – Git & Environment Setup
+- Initialized Git repository: `solar-challenge-week1`
+- Set up `.venv` Python virtual environment
+- Configured GitHub Actions for continuous integration
+- Organized project structure (`notebooks/`, `src/`, `data/`, etc.)
+- Documented setup steps in `README.md`
+
+#### 📊 Task 2 – Data Profiling, Cleaning, and EDA
+- Performed EDA on three datasets (`benin`, `sierra leone`, `togo`)
+- Cleaned missing values using median imputation
+- Identified outliers using Z-score
+- Generated visualizations:
+  - Time series plots
+  - Correlation heatmaps
+  - Bubble charts
+  - Wind roses
+
+#### 🌍 Task 3 – Cross-Country Comparison
+- Compared GHI, DNI, and DHI using boxplots and ANOVA
+- Summary:
+  - **Togo**: Highest average GHI
+  - **Benin**: Lowest GHI variability
+  - **Sierra Leone**: Most consistent irradiance
+
+#### 🚀 Bonus – Streamlit Dashboard
+- Developed an interactive dashboard using Streamlit
+- Features:
+  - Filters, sliders, and interactive charts
+  - Deployed to Streamlit Cloud
+
+🔗 **Live App**: [View Dashboard](https://solar-challenge-week1-em2oc9g59eahaxrbpiudso.streamlit.app/)
 
 ---
 
-## Getting Started
+## 📸 Screenshot Preview  
+![Streamlit App Screenshot](https://github.com/SamuelFentie/solar-challenge-week1/blob/main/dashboard_screenshots/Screenshot%202025-05-21%20154717.png)
 
-Follow the steps below to set up and run this project locally:
+---
 
-### 🔧 Installation Guide
+### 📌 Key Technologies
+- Python, Pandas, Matplotlib, Seaborn
+- Git, GitHub Actions
+- Streamlit, CI/CD
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/SamuelFentie/solar-challenge-week1.git
-
-# 2. Navigate into the project directory
-cd solar-challenge-week1
-
-# 3. Create a virtual environment
-python -m venv venv
-
-# 4. Activate the virtual environment
-source venv/bin/activate   # For Linux/macOS
-# .\venv\Scripts\activate   # For Windows
-
-# 5. Install required Python packages
-pip install -r requirements.txt
-=======
-+ git clone https://github.com/SamuelFentie/solar-challenge-week1.git
-+ cd solar-challenge-week1
-+ python -m venv venv
-+ source venv/bin/activate
-+ pip install -r requirements.txt
->>>>>>> eda-benin
