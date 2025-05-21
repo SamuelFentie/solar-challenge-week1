@@ -1,4 +1,8 @@
 venv/
+<<<<<<< HEAD
+=======
+venvi/
+>>>>>>> eda-benin
 data/
 .csv/
 .ipynb_checkpoints/

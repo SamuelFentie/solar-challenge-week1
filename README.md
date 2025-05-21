@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Solar Challenge Week 1 – Exploratory Data Analysis on Solar Radiation in Africa
 
 This repository contains the code, notebooks, and resources used to perform an exploratory data analysis (EDA) on solar radiation measurements in Africa, focusing on data sourced from [EnergyData.info](https://energydata.info/dataset/?q=Solar+Radiation+Measurement&vocab_regions=AFR).
@@ -30,3 +31,10 @@ source venv/bin/activate   # For Linux/macOS
 
 # 5. Install required Python packages
 pip install -r requirements.txt
+=======
++ git clone https://github.com/SamuelFentie/solar-challenge-week1.git
++ cd solar-challenge-week1
++ python -m venv venv
++ source venv/bin/activate
++ pip install -r requirements.txt
+>>>>>>> eda-benin
